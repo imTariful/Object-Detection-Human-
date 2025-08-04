@@ -32,9 +32,8 @@ This project uses **YOLOv8** to detect and track people in a video, count **IN**
 
 **Install via pip:**
 
-```bash
-pip install ultralytics opencv-python-headless
----
+! pip install ultralytics opencv-python-headless
+
 
 
 🚀 Usage (Google Colab)
