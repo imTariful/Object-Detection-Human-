@@ -38,27 +38,27 @@ This project uses **YOLOv8** to detect and track people in a video, count **IN**
 
 🚀 Usage (Google Colab)
 
-1.Clone or upload the script to Colab
+**1.Clone or upload the script to Colab**
 
-2.Install dependencies:
+**2.Install dependencies:**
 
 !pip install ultralytics opencv-python-headless
 
-3.Upload your input video:
+**3.Upload your input video:**
 
 from google.colab import files
 files.upload()
 
-4.Run the script to process video and generate results
+**4.Run the script to process video and generate results**
 
-5.Download output files:
+**5.Download output files:**
 
 from google.colab import files
 files.download("tracked_heatmap_output.avi")
 files.download("final_heatmap_image.jpg")
 
 
-📊 Use Cases
+**📊 Use Cases**
 
 Crowd analytics in public spaces
 
@@ -68,14 +68,16 @@ Event entrance/exit monitoring
 
 Surveillance & motion analysis
 
-📷 Output Previews
+**📷 Output Previews**
 
 Video: Bounding boxes with real-time tracking and heatmap overlay
 
 Image: Final frame with cumulative heatmap blended
 
 🧑‍💻 Author
+
 **Tariful Islam Tarif**
+
 Data Scientist & AI Engineer
 
 
