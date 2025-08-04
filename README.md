@@ -17,8 +17,11 @@ This project uses **YOLOv8** to detect and track people in a video, count **IN**
 ## 📁 **File Structure**
 
 ├── tracked_heatmap_output.avi # Output video with heatmap overlay
+
 ├── final_heatmap_image.jpg # Last frame + accumulated heatmap
+
 ├── your_script.py or .ipynb # Main code
+
 ├──a file of Your detection method,Line coordinates,Logic explanation for IN/OUT
 
 
